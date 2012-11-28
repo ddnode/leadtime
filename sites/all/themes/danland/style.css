@@ -4,7 +4,7 @@
 -------------------------------------------------------------- */
 
 body {
-background:url(images/body-bg.gif) repeat-x #fff;
+background:url(images/body-bg.jpg) repeat-x #fff;
 font-size: 84%;
 font-family: Arial, Helvetica, sans-serif;
 color: #000;
@@ -179,26 +179,22 @@ width: 10em;
 
 #menu {
 height: 35px;
-background:url(images/menu-bg.gif) repeat-x;
 width:952px;
 margin: 0 auto;
 }
 
 #nav {
 height: 35px;
-background:url(images/menu-bg.gif) repeat-x;
 float:left;
 }
 
 #nav li {
 float:left;
-background:url(images/menu-separator.gif) no-repeat right top;
-height:35px;
-padding:0 1px 0 0;
+padding: 0 2px;
 }
 
 #nav li a{
-color:#fff;
+color:#000;
 text-decoration:none;
 font-size:12px;
 padding:7px 29px 0 29px;
@@ -209,16 +205,15 @@ text-transform:uppercase;
 }
 
 #nav li a:hover {
-background:transparent url(images/menu-hover-bg.gif) repeat-x;
+  background-color: #49a0da;
 }
 
 #nav li.active-trail a {
-background:transparent url(images/menu-hover-bg.gif) repeat-x;
+  background-color: #49a0da;
 }
 
 #rounded-menu-left {
 height: 35px;
-background:transparent url(images/menu-left-bg.gif) no-repeat;
 float:left;
 width:1px;
 line-height:0;
@@ -227,7 +222,6 @@ font-size:0;
 
 #rounded-menu-right {
 height: 35px;
-background:url(images/menu-right-bg.gif) no-repeat;
 float:right;
 width:14px;
 line-height:0;
