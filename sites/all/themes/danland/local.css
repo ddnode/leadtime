@@ -33,3 +33,87 @@
 #menu .menu-412 a {
   border-bottom: 2px solid #00920a;
 }
+
+/* front page style */
+.column .block-title,
+.column .views-field-field-image,
+.column .views-field-title {
+  text-align: center;
+}
+.column .views-field-field-image img {
+  border: 1px solid #ccc;
+  padding: 1px;
+}
+.column .view-front-tours .views-row {
+  border: 1px solid #9dde00;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+/* group tours */
+tr.even {
+  background-color: #fff;
+}
+tr.odd {
+  background-color: #edf9e6;
+}
+td {
+  height: 26px;
+}
+th {
+  background-color: #22c70b;
+  height: 26px;
+}
+#page-title,
+.pane-title {
+  margin: 1em 0 0.5em;
+}
+
+/* tour list style */
+.view-tours-list-2 .views-row {
+  clear: both;
+  overflow: hidden;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  border: 1px solid #9dde00;
+  border-radius: 5px;
+}
+.view-tours-list-2 .views-row .views-field-field-image {
+  float: left;
+  margin-right: 20px;
+}
+.view-tours-list-2 .views-row .views-field-field-image img {
+  border: 1px solid #ccc;
+  padding: 1px;
+}
+
+/* node type schedule */
+.node-schedule .field-name-field-image {
+  float: left;
+  margin-right: 30px;
+}
+.node-schedule .field-name-field-image img {
+  padding: 5px;
+  border: 5px solid #ccc;
+  border-radius: 5px;
+}
+
+/* node type route */
+.node-type-route .field-name-field-schedule {
+  clear: both;
+}
+.node-type-route .node-schedule {
+  border: 1px solid #9dde00;
+  border-radius: 5px;
+  padding: 10px;
+}
+.node-type-route .field-name-field-image {
+  float: left;
+  margin-right: 30px;
+}
+.node-type-route .field-name-field-image img {
+  padding: 5px;
+  border: 5px solid #ccc;
+  border-radius: 5px;
+}
