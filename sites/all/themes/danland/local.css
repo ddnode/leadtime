@@ -45,7 +45,7 @@
   padding: 1px;
 }
 .column .view-front-tours .views-row {
-  border: 1px solid #9dde00;
+  border: 1px solid #94978d;
   padding: 10px;
   border-radius: 5px;
   margin: 10px 0;
@@ -56,13 +56,13 @@ tr.even {
   background-color: #fff;
 }
 tr.odd {
-  background-color: #edf9e6;
+  background-color: #f4f4f4;
 }
 td {
   height: 26px;
 }
 th {
-  background-color: #22c70b;
+  background-color: #cfcfcf;
   height: 26px;
 }
 #page-title,
@@ -76,7 +76,7 @@ th {
   overflow: hidden;
   padding: 10px 5px;
   margin-bottom: 10px;
-  border: 1px solid #9dde00;
+  border: 1px solid #94978d;
   border-radius: 5px;
 }
 .view-tours-list-2 .views-row .views-field-field-image {
@@ -104,7 +104,7 @@ th {
   clear: both;
 }
 .node-type-route .node-schedule {
-  border: 1px solid #9dde00;
+  border: 1px solid #94978d;
   border-radius: 5px;
   padding: 10px;
 }

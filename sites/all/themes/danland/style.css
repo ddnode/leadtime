@@ -4,7 +4,7 @@
 -------------------------------------------------------------- */
 
 body {
-background:url(images/body-bg.jpg) repeat-x #fff;
+background:url(images/body-bg.gif) repeat-x #fff;
 font-size: 84%;
 font-family: Arial, Helvetica, sans-serif;
 color: #000;
@@ -205,11 +205,11 @@ text-transform:uppercase;
 }
 
 #nav li a:hover {
-  background-color: #49a0da;
+  background-color: #cfcfcf;
 }
 
 #nav li.active-trail a {
-  background-color: #49a0da;
+  background-color: #cfcfcf;
 }
 
 #rounded-menu-left {
