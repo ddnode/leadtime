@@ -189,6 +189,7 @@ div.status {
 #primary {
   height: 47px;
   background: url(../images/primary-bg.png) no-repeat;
+  padding-left: 0;
 }
 #primary li {
   display: inline-block;
@@ -197,7 +198,7 @@ div.status {
   text-align: center;
 }
 #primary li.first {
-  margin-left: 340px;
+  margin-left: 355px;
 }
 #primary a {
   font-size: 18px;
