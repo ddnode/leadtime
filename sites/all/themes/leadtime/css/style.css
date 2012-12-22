@@ -12,7 +12,7 @@ body {
 /* Links */
 /* line 11, ../sass/style.sass */
 a:link, a:visited {
-  color: blue;
+  color: #424242;
   text-decoration: none; }
 
 /* line 16, ../sass/style.sass */
@@ -252,4 +252,16 @@ div.status {
   float:right;
   margin-top:7px;
   margin-right:20px;
+}
+
+/* frontpage left sider */
+#block-views-front_tours-block {
+  width: 280px;
+}
+#block-views-front_tours-block .block-inner {
+  padding: 11px;
+  border: 1px solid #aaa;
+}
+#block-views-front_tours-block img {
+  border: 1px solid #aaa;
 }

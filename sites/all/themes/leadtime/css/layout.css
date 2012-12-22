@@ -53,12 +53,12 @@
 /* line 55, ../sass/layout.sass */
 .two-sidebars .center,
 .sidebar-first .center {
-  margin-left: 190px; }
+  margin-left: 300px; }
 
 /* line 59, ../sass/layout.sass */
 #sidebar-first {
-  width: 190px;
-  margin-right: -190px; }
+  width: 300px;
+  margin-right: -300px; }
 
 /* line 65, ../sass/layout.sass */
 .two-sidebars .center,

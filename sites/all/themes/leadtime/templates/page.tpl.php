@@ -87,12 +87,20 @@
           </div> <!-- /#content-header -->
         <?php endif; ?>
         
-        <?php if(!$is_front): ?>
-          <div id="content-area">
+        <div id="content-area">
+          <?php if($page['content_top']): ?>
+            <div id="content-top"><?php print render($page['content_top']) ?></div>
+          <?php endif; ?>
+          
+          <?php if(!$is_front): ?>
             <?php print render($page['content']) ?>
-          </div>
-        <?php endif; ?>
-
+          <?php endif; ?>
+          
+          <?php if($page['content_bottom']): ?>
+            <div id="content_bottom"><?php print render($page['content_bottom']) ?></div>
+          <?php endif; ?>
+        </div>
+        
       </div>
     </div> <!-- /content-inner /content -->
 
