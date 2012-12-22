@@ -5,6 +5,7 @@ body {
   /* Setting up font size, leading and font family
    * http://www.markboulton.co.uk/journal/comments/five-simple-steps-to-better-typography */
   font: 14px/1.5em "宋体", Arial, sans-serif;
+  color: #020200;
   letter-spacing: 0.03em; 
   background: url(../images/body-bg.png) #fff repeat-x;
   }
@@ -344,6 +345,9 @@ div.status {
 .front .block-title:first-letter {
   background: url(../images/home.png) -50px 5px no-repeat;
 }
+#block-views-destination-block .block-title:first-letter {
+  background-position: -100px 5px;
+}
 #block-views-hots-block .block-title:first-letter {
   background-position: 0 5px;
 }
@@ -418,4 +422,53 @@ div.status {
 }
 #block-menu-menu-footer-menu .menu a {
   color: #a70303;
+}
+
+/* tours list page */
+.page-tours-group #content-inner,
+.page-tours-theme #content-inner,
+.page-tours-island #content-inner,
+.page-tours-fit #content-inner {
+  background: #fff;
+  padding: 10px;
+}
+.page-tours-group #content-inner .title,
+.page-tours-theme #content-inner .title,
+.page-tours-island #content-inner .title,
+.page-tours-fit #content-inner .title {
+  font-family: "微软雅黑","黑体";
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.page-tours-group #content-inner .title:first-letter,
+.page-tours-theme #content-inner .title:first-letter,
+.page-tours-island #content-inner .title:first-letter,
+.page-tours-fit #content-inner .title:first-letter {
+  color: #fff;
+  font-size: 22px;
+  padding: 12px;
+  background: url(../images/home.png) -50px 5px no-repeat;
+}
+.page-tours-group #content-inner .title:first-letter {
+  background-position: -150px 5px;
+}
+.page-tours-theme #content-inner .title:first-letter {
+  background-position: 0 5px;
+}
+.page-tours-island #content-inner .title:first-letter {
+  background-position: -200px 5px;
+}
+.page-tours-fid #content-inner .title:first-letter {
+  background-position: -250px 5px;
+}
+
+.view-tours-list-2 .views-row {
+  border: 1px solid #aaa;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.view-tours-list-2 .views-field-field-image {
+  float: left;
 }
