@@ -86,10 +86,12 @@
             
           </div> <!-- /#content-header -->
         <?php endif; ?>
-
-        <div id="content-area">
-          <?php print render($page['content']) ?>
-        </div>
+        
+        <?php if(!$is_front): ?>
+          <div id="content-area">
+            <?php print render($page['content']) ?>
+          </div>
+        <?php endif; ?>
 
       </div>
     </div> <!-- /content-inner /content -->
