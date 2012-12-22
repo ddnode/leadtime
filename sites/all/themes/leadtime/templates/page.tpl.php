@@ -55,7 +55,6 @@
   <!-- ______________________ MAIN _______________________ -->
 
   <div id="main" class="clearfix">
-
     <div id="content">
       <div id="content-inner" class="inner column center">
 
@@ -111,6 +110,10 @@
       </div>
     <?php endif; ?>
 
+    <?php if ($page['slideshow']): ?>
+      <div id="slideshow"><?php print render($page['slideshow']); ?></div>
+    <?php endif; ?>
+    
     <?php if ($page['sidebar_first']): ?>
       <div id="sidebar-first" class="column sidebar first">
         <div id="sidebar-first-inner" class="inner">

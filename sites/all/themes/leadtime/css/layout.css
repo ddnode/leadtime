@@ -95,3 +95,10 @@
 .with-navigation #content,
 .with-navigation .sidebar {
   margin-top: 47px; }
+
+#slideshow {
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin-right: -100%;
+}

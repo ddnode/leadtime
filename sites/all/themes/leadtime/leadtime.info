@@ -6,6 +6,7 @@ engine = phptemplate
 
 regions[page_top] = Page top
 regions[header] = Header
+regions[slideshow] = Slideshow
 regions[highlight] = Highlight
 regions[help] = Help
 regions[content_top] = Content top

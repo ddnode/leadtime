@@ -4,7 +4,7 @@ body {
   margin: 0;
   /* Setting up font size, leading and font family
    * http://www.markboulton.co.uk/journal/comments/five-simple-steps-to-better-typography */
-  font: 13px/1.5em "宋体", Arial, sans-serif;
+  font: 14px/1.5em "宋体", Arial, sans-serif;
   letter-spacing: 0.03em; 
   background: url(../images/body-bg.png) #fff repeat-x;
   }
@@ -19,6 +19,14 @@ a:link, a:visited {
 a:hover, a:active {
   color: red;
   text-decoration: underline; }
+  
+img {
+  vertical-align: middle;
+}
+
+fieldset {
+  padding: 0;
+}
 
 /* Titles. */
 /* line 21, ../sass/style.sass */
@@ -257,11 +265,100 @@ div.status {
 /* frontpage left sider */
 #block-views-front_tours-block {
   width: 280px;
+  margin-top: 10px;
 }
 #block-views-front_tours-block .block-inner {
   padding: 11px;
   border: 1px solid #aaa;
 }
+.view-front-tours img,
 #block-views-front_tours-block img {
   border: 1px solid #aaa;
+}
+#block-views-front_tours-block .views-field-title {
+  line-height: 43px;
+  text-align: center;
+}
+
+#block-views-front_tours-block_1,
+#block-views-front_tours-block_2,
+#block-views-front_tours-block_3 {
+  margin-top: 10px;
+}
+
+#block-views-front_tours-block_1 .views-row,
+#block-views-front_tours-block_2 .views-row,
+#block-views-front_tours-block_3 .views-row {
+  float: left;
+  margin-left: 10px;
+  line-height: 23px;
+  text-align: center;
+}
+
+/* frontpage block title */
+.front .block-title {
+  font-family: "微软雅黑","黑体";
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  padding: 0 3px;
+}
+.front .block-title:first-letter {
+  color: #fff;
+  font-size: 22px;
+  padding: 12px;
+}
+
+.front .block-title:first-letter {
+  background: url(../images/home.png) -50px 5px no-repeat;
+}
+#block-views-front_tours-block_1 .block-title:first-letter {
+  background-position: -150px 5px;
+}
+#block-views-front_tours-block_2 .block-title:first-letter {
+  background-position: -250px 5px;
+}
+#block-views-front_tours-block_3 .block-title:first-letter {
+  background-position: -200px 5px;
+}
+
+/* slideshow */
+.front .with-navigation #content,
+.front .with-navigation .sidebar {
+  margin-top: 470px;
+}
+#slideshow {
+  margin-top: 57px;
+  height: 415px;
+  background: url(../images/slideshow-shadow.gif) center 320px no-repeat;
+}
+.view-tour-slideshow {
+  position: relative;
+}
+.view-tour-slideshow .views-slideshow-controls-bottom {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+.view-tour-slideshow .views-slideshow-pager-field-item {
+  position: relative;
+  border: 1px solid #818281;
+  padding: 2px;
+  background: #000;
+  margin-bottom: 3px;
+}
+.view-tour-slideshow .views-field-title {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  line-height: 40px;
+  width: 215px;
+  background: #eee;
+  background: rgba(0,0,0,0.6);
+}
+.view-tour-slideshow .views-field-title a {
+  color: #fff;
+  font-weight: bold;
 }

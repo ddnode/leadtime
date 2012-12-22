@@ -32,6 +32,9 @@ function leadtime_preprocess_page(&$vars, $hook) {
   if (!empty($vars['secondary_menu'])) {
     $vars['classes_array'][] = 'with-subnav';
   }
+  if (!empty($vars['page']['slideshow'])) {
+    $vars['classes_array'][] = 'with-slideshow';
+  }
 
   // Add first/last classes to node listings about to be rendered.
   if (isset($vars['page']['content']['system_main']['nodes'])) {
