@@ -5,7 +5,7 @@ body {
   /* Setting up font size, leading and font family
    * http://www.markboulton.co.uk/journal/comments/five-simple-steps-to-better-typography */
   font: 14px/1.5em "宋体", Arial, sans-serif;
-  color: #020200;
+  color: #424242;
   letter-spacing: 0.03em; 
   background: url(../images/body-bg.png) #fff repeat-x;
   }
@@ -295,7 +295,7 @@ div.status {
   background: url(../images/home.png) -325px 5px no-repeat;
 }
 #block-views-hots-block .views-row a {
-  font-family: "微软雅黑";
+  font-family: "微软雅黑","黑体";
   font-weight: 300;
   color: #020200;
 }
@@ -405,6 +405,7 @@ div.status {
 #footer {
   background: #edd48b;
   padding: 20px 35px;
+  color: #020200;
 }
 
 #block-menu-menu-footer-menu .menu {
@@ -468,7 +469,77 @@ div.status {
   border: 1px solid #aaa;
   padding: 10px;
   margin-bottom: 10px;
+  height: 188px;
 }
 .view-tours-list-2 .views-field-field-image {
   float: left;
+  margin-right: 10px;
+}
+.view-tours-list-2 .views-field-title {
+  font-family: "微软雅黑","黑体";
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.view-tours-list-2 .views-field-field-price {
+  float: right;
+  font-family: "微软雅黑","黑体";
+  font-size: 24px;
+  font-weight: bold;
+  color: #ec7403;
+  margin-right: 50px;
+}
+.view-tours-list-2 .views-label {
+  color: #b80202;
+  font-weight: bold;
+  line-height: 2em;
+}
+.view-tours-list-2 .views-field-field-start-date .field-content,
+.view-tours-list-2 .views-field-field-flight .field-content {
+  display: inline;
+  line-height: 2em;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.view-tours-list-2 .views-field-body {
+  margin-left: 315px;
+  height: 105px;
+  overflow: hidden;
+}
+
+/* node type schedule */
+.node-schedule {
+  padding: 10px;
+  overflow: hidden;
+}
+.node-schedule .field-name-field-image {
+  float: left;
+  margin-right: 30px;
+}
+.node-schedule .field-name-field-image img {
+  padding: 5px;
+  border: 5px solid #aaa;
+}
+
+/* node type route */
+.node-route {
+  padding: 10px;
+  overflow: hidden;
+}
+.node-type-route .field-name-field-schedule {
+  clear: both;
+}
+.node-type-route .node-schedule {
+  border: 1px solid #94978d;
+  padding: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.node-type-route .field-name-field-image {
+  float: left;
+  margin-right: 30px;
+}
+.node-type-route .field-name-field-image img {
+  padding: 5px;
+  border: 5px solid #aaa;
 }
