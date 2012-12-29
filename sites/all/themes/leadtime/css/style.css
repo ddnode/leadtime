@@ -433,6 +433,8 @@ div.status {
   background: #fff;
   padding: 10px;
 }
+#block-views-tours_list_2-quality_tour .block-title,
+#block-views-tours_list_2-depth_tour .block-title,
 .page-tours-group #content-inner .title,
 .page-tours-theme #content-inner .title,
 .page-tours-island #content-inner .title,
@@ -443,6 +445,8 @@ div.status {
   margin-top: 10px;
   margin-left: 5px;
 }
+#block-views-tours_list_2-quality_tour .block-title:first-letter,
+#block-views-tours_list_2-depth_tour .block-title:first-letter,
 .page-tours-group #content-inner .title:first-letter,
 .page-tours-theme #content-inner .title:first-letter,
 .page-tours-island #content-inner .title:first-letter,
@@ -463,6 +467,12 @@ div.status {
 }
 .page-tours-fid #content-inner .title:first-letter {
   background-position: -250px 5px;
+}
+#block-views-tours_list_2-quality_tour .block-title:first-letter {
+  background-position: -250px 5px;
+}
+#block-views-tours_list_2-depth_tour .block-title:first-letter {
+  background-position: -100px 5px;
 }
 
 .view-tours-list-2 .views-row {
