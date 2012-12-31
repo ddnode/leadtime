@@ -583,22 +583,82 @@ div.status {
 .node-type-route #tabs {
   list-style: none;
   overflow: hidden;
+  padding-left: 10px;
+  margin: 0;
+  margin-bottom: -1px;
 }
 
 .node-type-route #tabs li {
   float: left;
   padding: 10px;
+  width: 100px;
+  margin-right: 2px;
+  height: 20px;
+  text-align: center;
   cursor: pointer;
+  background: url(../images/tab.png) no-repeat;
+  color: #024a94;
+  text-shadow: 1px 1px #fff;
 }
 
 .node-type-route #tabs li.active {
-  color: red;
+  color: #1d1d1d;
+  background: url(../images/active-tab.png) no-repeat;
 }
-
+.node-type-route #tabs-content {
+  color: #424242;
+  font-family: "微软雅黑","黑体";
+  border: 1px solid #aaa;
+  padding: 15px;
+}
 .node-type-route #tabs-content .tab-content {
   display: none;
 }
 
 .node-type-route #tabs-content .active {
   display: block;
+}
+#route-schedules {
+  border-spacing: 0;
+  line-height: 1.5em;
+  width: 100%;
+}
+#route-schedules,
+#route-schedules th,
+#route-schedules td {
+  border: 1px solid #d7d6d6;
+  text-align: center;
+}
+#route-schedules .datetime {
+  width: 130px;
+}
+#route-schedules .schedule-content {
+  text-align: left;
+  padding: 20px 20px 10px;
+}
+#route-schedules th {
+  height: 37px;
+  font-weight: normal;
+  background: url(../images/table-th.png) repeat-x;
+}
+#route-schedules .field-name-field-city {
+  font-weight: bold;
+}
+#route-schedules .field-name-field-flight-number .field-items {
+  color: #0557a6;
+}
+#route-schedules .field-name-field-tour-image .field-items {
+  margin-right: -20px;
+}
+#route-schedules .field-name-field-tour-image .field-item {
+  display: inline;
+  margin-right: 18px;
+}
+#route-schedules .other td {
+  height: 34px;
+  width: 230px;
+  padding-left: 40px;
+}
+#route-schedules .other .field-label {
+  font-weight: normal;
 }

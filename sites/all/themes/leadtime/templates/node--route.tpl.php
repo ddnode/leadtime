@@ -40,22 +40,49 @@
       </ul>
       <div id="tabs-content">
         <div data-tab="fee" class="tab-content">
-          <table>
+          <table id="route-schedules">
             <tr>
-              <th>日期</th>
-              <th>行程安排</th>
+              <th class="datetime">日期</th>
+              <th colspan="3">行程安排</th>
             </tr>
             <?php foreach ($schedules as $day => $schedule): ?>
               <tr>
-                <td>第<?php print $day + 1; ?>天</td>
-                <td><?php print $schedule->title; ?></td>
+                <td rowspan="2">第<?php print $day + 1; ?>天</td>
+                <td class="schedule-content" colspan="3">
+                  <?php print render(field_view_field('node', $schedule, 'field_city', array(
+                    'label' => 'hidden',
+                  ))); ?>
+                  <?php print render(field_view_field('node', $schedule, 'field_flight_number', array(
+                    'label' => 'inline',
+                  ))); ?>
+                  <?php print render(field_view_field('node', $schedule, 'body', array(
+                    'label' => 'hidden',
+                  ))); ?>
+                  <?php print render(field_view_field('node', $schedule, 'field_tour_image', array(
+                    'label' => 'hidden',
+                    'settings' => array('image_style' => 'schedule_thumbnail'),
+                  ))); ?>
+                </td>
+              </tr>
+              <tr class="other">
+                <td><?php print render(field_view_field('node', $schedule, 'field_hotel', array(
+                    'label' => 'inline',
+                  ))); ?></td>
+                <td><?php print render(field_view_field('node', $schedule, 'field_restaurant', array(
+                    'label' => 'inline',
+                  ))); ?></td>
+                <td><?php print render(field_view_field('node', $schedule, 'field_traffic', array(
+                    'label' => 'inline',
+                  ))); ?></td>
               </tr>
             <?php endforeach; ?>
           </table>
         </div>
-        <div data-tab="standard" class="tab-content"></div>
-        <div data-tab="qa" class="tab-content"></div>
-        <div data-tab="feedback" class="tab-content"></div>
+        <div data-tab="standard" class="tab-content"><?php print render($content['field_standard']); ?></div>
+        <div data-tab="qa" class="tab-content"><?php print render($content['field_qa']); ?></div>
+        <div data-tab="feedback" class="tab-content">
+          <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=740576915&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:740576915:41" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+        </div>
       </div>
   	</div>
   	
