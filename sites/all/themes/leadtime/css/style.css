@@ -536,20 +536,69 @@ div.status {
   padding: 10px;
   overflow: hidden;
 }
-.node-type-route .field-name-field-schedule {
-  clear: both;
-}
-.node-type-route .node-schedule {
-  border: 1px solid #94978d;
-  padding: 10px;
-  overflow: hidden;
-  margin-bottom: 10px;
+.node-type-route .simple-schedules {
+  float:left;
+  width: 400px;
+  margin-right: -412px;
+  margin-left: 12px;
+  font-family: "微软雅黑","黑体";
+  font-size: 16px;
+  color: #424242;
 }
 .node-type-route .field-name-field-image {
   float: left;
-  margin-right: 30px;
+  margin-left: 412px;
 }
-.node-type-route .field-name-field-image img {
-  padding: 5px;
-  border: 5px solid #aaa;
+.node-type-route .route-middle {
+  margin: 10px 0;
+}
+.node-type-route .field-name-field-tour-feature {
+  width: 642px;
+  border: 1px solid #aa8f69;
+  color: #8c5304;
+  margin-right: -644px;
+  float: left;
+}
+.node-type-route .field-name-field-tour-feature .field-label {
+  font: 0/0 a;
+  height: 34px;
+  margin-left: 10px;
+  background: url(../images/tour-feature.png) no-repeat;
+}
+.node-type-route .field-name-field-tour-feature .field-items {
+  padding: 20px;
+  font-family: "微软雅黑","黑体";
+}
+.node-type-route .field-name-field-tour-feature .field-items p {
+  margin-bottom: 0.5em;
+}
+.node-type-route .field-name-field-map-image {
+  float: left;
+  margin-left: 654px;
+}
+.node-type-route .field-name-field-map-image img {
+  border: 1px solid #aaa;
+}
+
+.node-type-route #tabs {
+  list-style: none;
+  overflow: hidden;
+}
+
+.node-type-route #tabs li {
+  float: left;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.node-type-route #tabs li.active {
+  color: red;
+}
+
+.node-type-route #tabs-content .tab-content {
+  display: none;
+}
+
+.node-type-route #tabs-content .active {
+  display: block;
 }
